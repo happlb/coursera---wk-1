@@ -7,7 +7,7 @@
 
 /*Desktop View: 992px and above*/
 body {
-    background-color: #EFEFED;
+    background-color: #lightcyan;
 }
 
 h1 {
@@ -20,9 +20,10 @@ h2 {
     background-color: #7D7EA1;
     color: black;
     text-align: right;
-    margin-left: 5vw;
-    border-bottom: 1vw solid #734468;
-    border-left: 1vw solid #734468;
+    margin-left: 60%;
+    padding-right: 1px;
+    border-bottom: 5px solid #734468;
+    border-left: 5px solid #734468;
 }
 
 .first {
@@ -40,7 +41,7 @@ h2 {
 }
 
 section {
-    border: 1vw solid #734468 ;
+    border: 5px solid #734468;
     height: 30vh;
     width: 20vw;
     margin: 10vh 5vw 0vh 5vw;
@@ -53,37 +54,55 @@ p {
 
 
 
-@media screen and (max-width: 767px) {
-    /*Mobile View: 767px and below*/
-
-    section {
-        border: 1vw solid #734468;
-        height: 30vh;
-        width: 20vw;
-        margin: 10vh 5vw 0vh 5vw;
-    }
-}
-
 @media screen and (max-width: 991px) {
-    /*Tablet View: 991px to 768px*/
+
+    /*tablet View: 768px to 991*/
     .first {
-        margin-left: 10vw;
+        margin-right: unset;
         float: left;
     }
 
     .second {
+        margin-left: 5vw;
         float: left;
     }
 
     .last {
-        margin-right: 10vw;
+        margin-top: 5vh;
+        margin-right: unset;
         float: left;
+        width: 80vw;
     }
 
     section {
-        border: 1vw solid #734468;
+        border: 5px solid #734468;
         height: 30vh;
-        width: 20vw;
-        margin: 10vh 5vw 0vh 5vw;
+        width: 37.5vw;
+        margin: 10vh 0vw 0vh 10vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*Mobile View: 767px and below*/
+    .first {
+        float: unset;
+    }
+
+    .second {
+        margin-left: 10vw;
+        float: unset;
+    }
+
+    .last {
+        margin-right: unset;
+        float: unset;
+    }
+
+    section {
+        border: 5px solid #734468;
+        height: 30vh;
+        width: 80vw;
+        margin: 5vh 0vw 0vh 10vw;
     }
 }
