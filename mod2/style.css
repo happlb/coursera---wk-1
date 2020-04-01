@@ -7,7 +7,7 @@
 
 /*Desktop View: 992px and above*/
 body {
-    background-color: #lightcyan;
+    background-color: lightcyan;
 }
 
 h1 {
@@ -36,20 +36,22 @@ h2 {
 }
 
 .last {
-    margin-right: 10vw;
     float: left;
 }
 
 section {
     border: 5px solid #734468;
-    height: 30vh;
+    height: 40vh;
     width: 20vw;
     margin: 10vh 5vw 0vh 5vw;
 }
 
-p {
-    text-align: center;
+p {  
+    overflow:hidden;
+    text-align: left;
     margin-top: 3vh;
+    font-size: 3vw;
+    max-height:29vh;
 }
 
 
@@ -72,6 +74,11 @@ p {
         margin-right: unset;
         float: left;
         width: 80vw;
+    }
+
+    .last > h2 {
+        /* 100- (37.5/80)*40 */
+        margin-left: 81.25%; 
     }
 
     section {
@@ -98,6 +105,10 @@ p {
         margin-right: unset;
         float: unset;
     }
+
+     .last> h2{
+        margin-left:60%;
+     }
 
     section {
         border: 5px solid #734468;
