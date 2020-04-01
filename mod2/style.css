@@ -17,13 +17,24 @@ h1 {
 }
 
 h2 {
-    background-color: #7D7EA1;
     color: black;
     text-align: right;
     margin-left: 60%;
     padding-right: 1px;
     border-bottom: 5px solid #734468;
     border-left: 5px solid #734468;
+}
+
+.first > h2 {
+    background-color: lightgreen;
+}
+
+.second > h2 {
+    background-color: lightgray;
+}
+
+.last > h2 {
+    background-color: lightsteelblue;
 }
 
 .first {
@@ -44,6 +55,7 @@ section {
     height: 40vh;
     width: 20vw;
     margin: 10vh 5vw 0vh 5vw;
+    background-color:white;
 }
 
 p {
@@ -76,10 +88,10 @@ p {
         width: 80vw;
     }
 
-        .last > h2 {
+     .last > h2 {
             /* 100- (37.5/80)*40 */
             margin-left: 81.25%;
-        }
+     }
 
     section {
         border: 5px solid #734468;
