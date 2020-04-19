@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bootstrap-4.4.1-dist",
+    "\\mod3",
+    "\\mod3\\css",
+    "\\mod3\\js",
+    "\\site"
   ],
   "PreviewInSolutionExplorer": false
 }

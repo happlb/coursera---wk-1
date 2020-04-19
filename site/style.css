@@ -2,10 +2,56 @@
     background-color: powderblue;
 }
 
+header {
+    text-align: center;
+}
 h1 {
     color: blue;
+    font-size: 160%;
+    font-family: courier;
+  //  border: 10px solid blue;
+    padding: 30px;
+    //margin: 50px;
 }
 
 p {
     color: red;
+    font-size: 100%;
+    font-family: courier;
+    //border: 10px solid red;
+    padding: 30px;
+}
+
+#p01 {
+    color: black;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    //padding: 20px;
+}
+
+article {
+    float: left;
+   // padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
